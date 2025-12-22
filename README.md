@@ -80,7 +80,12 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 
 ### 4. 启动项目
-在项目根目录下运行：
+使用IDEA运行:
+```
+进入项目根目录bloodsystem/src/main/java/com/example/bloodsystem/BloodsystemApplication, 点击右上角的绿色三角运行
+```
+
+或者在项目根目录下运行(注意：一定要进入包含 pom.xml 和 mvnw 的那一层目录)：
 
 ```bash
 mvn clean spring-boot:run
